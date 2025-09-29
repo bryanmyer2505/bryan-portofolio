@@ -1,0 +1,8 @@
+
+@tailwind base; @tailwind components; @tailwind utilities;
+.container-pad { @apply max-w-6xl mx-auto px-4; }
+.glass { @apply bg-white/70 backdrop-blur border border-white/40 shadow-soft; }
+.section { @apply container-pad py-16 md:py-24; }
+.card { @apply glass rounded-2xl p-6 transition hover:shadow-lg hover:-translate-y-0.5; }
+.badge { @apply inline-block rounded-full border px-3 py-1 text-xs font-medium text-gray-700 bg-gray-50; }
+.link { @apply text-brand-700 hover:text-brand-600 underline-offset-4 hover:underline; }
