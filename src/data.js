@@ -125,6 +125,11 @@ export const projects=[
     tags:["Computer Vision","ML"],
     links:[{label:"Final Report",url:"https://docs.google.com/document/d/1foORBP7Npnf6HiuSEJ9nLXah8wAwHU1rZ_gdZ5cPOhE/edit?usp=sharing"}]
   },
+  {title:"Computer Vision — RipenX Palm-Oil Fruit Grading App",
+    description:"End-to-end AI-based web application for palm-oil fruit grading in rural areas.",
+    tags:["Computer Vision", "Flask", "Data Engineering"],
+    links:[{label:"Github Repository",url:"https://github.com/bryanmyer2505/ripenx-app"}]
+  },
   {title:"Database Systems — Normalization & Design",
     description:"Designed reliable relational schema by eliminating functional dependencies and applying normalization.",
     tags:["Database","Normalization","SQL"],
