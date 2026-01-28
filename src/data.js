@@ -10,7 +10,7 @@ export const profile={
   linkedin:"https://www.linkedin.com/in/bryan-myer-setiawan-744531215/",
   github:"",
   photo:"/profile.jpg",
-  cvPath:"/docs/Bryan-Myer-Setiawan-CV.pdf",
+  cvPath:"/docs/Bryan-Myer-Setiawan-CV-ATS.pdf",
   portfolioPdfPath:"/docs/Bryan-Myer-Setiawan-Portfolio.pdf"
 };
 
@@ -35,8 +35,8 @@ export const experience = {
       period: "Sep 2025 — Present",
       image: "/img/logo_hpi.jpg",
       bullets: [
-        "Develop AI-based web & mobile apps for palm-oil fruit grading usable in rural areas.",
-        "Build a document classification app to automatically detect invoice documents."
+        "Develop AI-based web & mobile apps for palm-oil fruit grading usable in rural areas",
+        "Develop AI-based small projects to help company’s administration processes"
       ]
     }
   ],
