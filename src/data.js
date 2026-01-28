@@ -10,7 +10,7 @@ export const profile={
   linkedin:"https://www.linkedin.com/in/bryan-myer-setiawan-744531215/",
   github:"",
   photo:"/profile.jpg",
-  cvPath:"/docs/Bryan-Myer-Setiawan-CV-ATS.pdf",
+  cvPath:"/docs/CV-ATS-Bryan-Myer-Setiawan.pdf",
   portfolioPdfPath:"/docs/Bryan-Myer-Setiawan-Portfolio.pdf"
 };
 
