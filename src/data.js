@@ -3,19 +3,19 @@ import { image, link } from "framer-motion/client";
 export const profile={
   name:"Bryan Myer Setiawan",
   title:"AI Engineer | Data Scientist",
-  about:"I am a 7th-semester Computer Science student at BINUS University with a strong work ethic and a commitment to continuous growth in both technical and interpersonal skills. My academic focus is complemented by active involvement in organizational experiences, which have strengthened my leadership and teamwork abilities. I aspire to build a career as an Artificial Intelligence Engineer, Data Scientist, or Data Analyst, where I can apply my expertise to create innovative, data-driven solutions.",
+  about:"I am a Final year Computer Science student at BINUS University with strong foundations in Artificial Intelligence, Machine Learning, and Data Analytics, strengthened by international academic exposureas an exchange student and working experience as an AI Engineer Intern. Experienced in developing AI-based applications, mentoring students, and managing organization operations. Commited tocontinuous self development and delivering data-driven solutions",
   location:"Apt. Mediterania Gajah Mada, Jl. Gajah Mada No. 174, Jakarta",
   email:"bryanmyersetiawan@gmail.com",
   phone:"+62 818 409 888",
   linkedin:"https://www.linkedin.com/in/bryan-myer-setiawan-744531215/",
-  github:"",
+  github:"https://github.com/bryanmyer2505",
   photo:"/profile.jpg",
   cvPath:"/docs/CV-ATS-Bryan-Myer-Setiawan.pdf",
   portfolioPdfPath:"/docs/Bryan-Myer-Setiawan-Portfolio.pdf"
 };
 
 export const skills={
-  technical:["Python","Jupyter Notebook","Computer Vision","Natural Language Processing","ML/DL","Data Analytics","Cloud Technology","Flask","React Native"],
+  technical:["Python","Jupyter Notebook","Computer Vision","Natural Language Processing","ML/DL","SQL & Data Analytics","Cloud Technology","Flask","React Native"],
   mathematics:["Calculus","Statistics"],
   soft:["Leadership","Time Management","Critical Thinking","Problem Solving","Project Management"],
   linguistics:["English", "Bahasa Indonesia","Mandarin"]
@@ -32,7 +32,7 @@ export const experience = {
     {
       role: "AI Engineer Intern",
       company: "HPI Agro, Jakarta",
-      period: "Sep 2025 — Present",
+      period: "Sep 2025 — Feb 2026",
       image: "/img/logo_hpi.jpg",
       bullets: [
         "Develop AI-based web & mobile apps for palm-oil fruit grading usable in rural areas",
@@ -52,7 +52,19 @@ export const experience = {
         "Paper accepted at ISEMANTIC 2024 and published on IEEE Xplore."
       ],
       links:[{label:"IEEE Paper",url:"https://ieeexplore.ieee.org/abstract/document/10762067"}],
+    },
+    {
+      role: "Research Paper Author",
+      company: "ICGHIT 2025 / IEEE Xplore",
+      period: "2025",
+      image: "/img/logo_IEEE.jpg",
+      bullets: [
+        "Authored a research paper on developing authentic handwritten javanese script dataset, and  introduce cross language transfer learning as an efficient method",
+        "Paper accepted at ICGHIT 2025 and waiting to be published on IEEE Xplore."
+      ],
+      links:[{label:"IEEE Paper",url:"https://drive.google.com/file/d/1UMu6sUQcyWfY8-BcSFti_iHhq5MF3pJP/view?usp=sharing"}],
     }
+
   ],
 
   certifications: [
@@ -139,10 +151,5 @@ export const projects=[
     description:"Merged datasets to generate new insights through exploration and analysis.",
     tags:["Data Mining","EDA"],
     links:[{label:"Final Report",url:"https://docs.google.com/document/d/1qoZUvsCmi_CDGyFtxDCTK1sCC088Jwk5/edit?usp=sharing&ouid=101085490274267652557&rtpof=true&sd=true"}]
-  },
-  {title:"Research Paper — Image Downscaling & Color Perception",
-    description:"Paper on image downscaling algorithms & color perception; accepted at ISEMANTIC 2024 and on IEEE Xplore.",
-    tags:["Research","Computer Vision"],
-    links:[{label:"IEEE Abstract",url:"https://ieeexplore.ieee.org/abstract/document/10762067"}]
   }
 ];
