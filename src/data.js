@@ -3,7 +3,7 @@ import { image, link } from "framer-motion/client";
 export const profile={
   name:"Bryan Myer Setiawan",
   title:"AI Engineer | Data Scientist",
-  about:"I am a Final year Computer Science student at BINUS University with strong foundations in Artificial Intelligence, Machine Learning, and Data Analytics, strengthened by international academic exposureas an exchange student and working experience as an AI Engineer Intern. Experienced in developing AI-based applications, mentoring students, and managing organization operations. Commited tocontinuous self development and delivering data-driven solutions",
+  about:"Fresh Graduate Computer Science student from BINUS University with strong foundations in Artificial Intelligence, Machine Learning, and Data Analytics, strengthened by international academic exposure as an exchange student and working experience as an AI Engineer Intern. Experienced in developing AI-based applications, mentoring students, and managing organization operations. Commited to continuous self development and delivering data-driven solutions.",
   location:"Apt. Mediterania Gajah Mada, Jl. Gajah Mada No. 174, Jakarta",
   email:"bryanmyersetiawan@gmail.com",
   phone:"+62 818 409 888",
@@ -15,14 +15,14 @@ export const profile={
 };
 
 export const skills={
-  technical:["Python","Jupyter Notebook","Computer Vision","Natural Language Processing","ML/DL","SQL & Data Analytics","Cloud Technology","Flask","React Native"],
+  technical:["Python","Jupyter Notebook","Computer Vision","Natural Language Processing","ML/DL","SQL & Data Analytics","Cloud Technology","Flask","ReactJa"],
   mathematics:["Calculus","Statistics"],
   soft:["Leadership","Time Management","Critical Thinking","Problem Solving","Project Management"],
-  linguistics:["English", "Bahasa Indonesia","Mandarin"]
+  linguistics:["English", "Bahasa Indonesia","Mandarin", "Dutch"]
 };
 
 export const education=[
-  {school:"BINUS University, Alam Sutera — Computer Science Global Class",period:"2022 — Present",note:"GPA: 3.79 / 4.00"},
+  {school:"BINUS University, Alam Sutera — Computer Science Global Class",period:"2022 — Present",note:"GPA: 3.83 / 4.00"},
   {school:"Xi’an Jiaotong-Liverpool University — Exchange (Spring 2025)",period:"2025",note:""},
   {school:"SMA Karangturi, Semarang — Mathematics and Science",period:"2019 — 2022",note:"Final Score: 90 / 100"}
 ];
@@ -132,6 +132,11 @@ export const experience = {
 };
 
 export const projects=[
+  {title:"NLP - AI-Based Client-Company Match Predictor",
+    description:"Analyzing client and company profiles to predict match suitability using LLM and NLP models.",
+    tags:["NLP","ML", "LLM", "Data Analysis", 'RAG'],
+    links:[{label:"Github Repository",url:"https://github.com/bryanmyer2505/AI-client-candidate-match-predictor"}]
+  },
   {title:"Computer Vision — Dataset & Reporting",
     description:"Applied CV techniques and contributed to dataset curation and reporting.",
     tags:["Computer Vision","ML"],

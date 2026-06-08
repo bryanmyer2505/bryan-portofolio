@@ -7,7 +7,7 @@ export default function Home(){
     <section className="section grid md:grid-cols-[1.2fr,1fr] gap-10 items-center">
       <div>
         <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-brand-50 text-brand-700 text-sm font-medium mb-4">
-          ✨ AI Engineer • Data Scientist
+          ✨ AI & Data Science Enthusiast
         </div>
 
         <h1 className="text-4xl md:text-6xl font-extrabold leading-tight">
